@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="container">
+        
+    </div>
+    <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Email</th>
+            <th>Mobile</th>
+            <th>Company</th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let employee of employees" [employee]="employee" myTd></tr>
+        </tbody>
+      </table>
+</div>

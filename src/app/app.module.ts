@@ -3,10 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { EmployeeComponent } from './employee/employee.component';
+import { SearchPipe } from './pipes/search.pipe';
+import { ARowComponent } from './employee/a-row/a-row.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    EmployeeComponent,
+    SearchPipe,
+    ARowComponent,
   ],
   imports: [
     BrowserModule,
